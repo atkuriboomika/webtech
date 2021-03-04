@@ -15,7 +15,7 @@
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 14px;
 }
 
 .col-1 {width: 8.33%;}
@@ -31,6 +31,13 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 html {
   font-family: "Lucida Sans", sans-serif;
 }
