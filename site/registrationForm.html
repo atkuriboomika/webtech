@@ -6,7 +6,7 @@
 <body style="background-color:burlywood">
     <h1 style="text-align: center;">Online Registration of Open Elective</h1>
     <p style="text-align: center;">Fill the following details to proceed for the registration of this Semester</p>
-    <form style="margin-left:400px; margin-right: 450px; border-width:2px;border-color:chocolate; border-style:solid;">
+    <form style="margin-left:400px; margin-right: 450px;">
         <label for="fname">First Name</label><br>
         <input type="text" id="fname" name="fname"><br><br>
         <label for="reg">Registration Number</label><br>
@@ -31,7 +31,7 @@
         <label for="2">Second Choice</label><br>
         <select id="2" name="2">
             <option value="gt">Green technology</option>
-            <option value="oop">OOP</option>
+            <option value="oop" selected>OOP</option>
             <option value="SS">Soft Skills</option>
             <option value="de">Differential Equations</option>
         </select><br><br>
@@ -39,7 +39,7 @@
         <select id="3" name="3">
             <option value="gt">Green technology</option>
             <option value="oop">OOP</option>
-            <option value="SS">Soft Skills</option>
+            <option value="SS" selected>Soft Skills</option>
             <option value="de">Differential Equations</option>
         </select><br><br>
         <label for="4">Fourth Choice</label><br>
@@ -47,13 +47,13 @@
             <option value="gt">Green technology</option>
             <option value="oop">OOP</option>
             <option value="SS">Soft Skills</option>
-            <option value="de">Differential Equations</option>
+            <option value="de" selected>Differential Equations</option>
         </select><br><br>    
         <P>Do you have backlogs?</P>    
-        <input type="radio" id="check" name="check">
-        <label for="check">YES</label><br>        
-        <input type="radio" id="check2" name="check2">
-        <label for="check2">NO</label><br><br>
+        <input type="radio" id="yes" name="yes">
+        <label for="yes">YES</label><br>        
+        <input type="radio" id="no" name="no">
+        <label for="no">NO</label><br><br>
         <input type="checkbox" id="ch" name="ch">
         <lable for="ch">you want a copy of this form to be sent to your mail</lable><br><br>
 
